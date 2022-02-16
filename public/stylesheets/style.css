@@ -184,13 +184,13 @@
     display: flex;
   }
 
-  .texLugar {
-    width: 25%;
+  .textLugar {
+    width: 60%;
     text-align: center;
     color: #000;
   }
 
-  .texDetalle {
+  .textDetalle {
     width: 70%;
     margin-left: 15px;
     padding-left: 15px;
@@ -198,7 +198,20 @@
     border-left: 2px solid #31b36c;
     font-size: 15px;
   }
+  .texLugar {
+    width: 60%;
+    text-align: center;
+    color: #000;
+  }
 
+  .texDetalle {
+    width: 110%;
+    margin-left: 15px;
+    padding-left: 15px;
+    color: #000;
+    border-left: 2px solid #31b36c;
+    font-size: 15px;
+  }
   .estado {
     width: 5%;
     color: #000;
@@ -217,15 +230,15 @@
     font-size: 12px;
     font-weight: 400;
     position: absolute;
-    bottom: -160%;
-    right: 20%;
+    bottom: -183%;
+    right: 12%;
     background: #31b36c;
     -webkit-transform: skew(-30deg);
     -moz-transform: skew(-30deg);
     -o-transform: skew(-30deg);
     color: #fff;
     /* margin-bottom: 100px; */
-  }
+}
   .llamar{
     color: #000;
   }
